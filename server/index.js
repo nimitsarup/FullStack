@@ -3,9 +3,6 @@ const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 
-// client id - 519105932793-p1081sed4g3879n3lpuu0bomk0ks9fbc.apps.googleusercontent.com
-// client secret - 8nL2bABJjjaVPM5P8JSyLCFI
-
 passport.use(new GoogleStrategy());
 
 
